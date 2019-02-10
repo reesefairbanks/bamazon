@@ -1,0 +1,29 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "An app that uses Node.js and MySQL to create the ability to search and purchase products from a store, similar to Amazon.",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "node bamazonCustomer.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reesefairbanks/bamazon.git"
+  },
+  "keywords": [
+    "node.js",
+    "MySQL",
+    "Amazon",
+    "Database"
+  ],
+  "author": "Reese Fairbanks",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/reesefairbanks/bamazon/issues"
+  },
+  "homepage": "https://github.com/reesefairbanks/bamazon#readme",
+  "dependencies": {
+    "inquirer": "^6.2.2",
+    "mysql": "^2.16.0"
+  }
+}
